@@ -42,10 +42,6 @@
     </container>
 </template>
 
-<script setup>
-
-</script>
-
 <style scoped>
 header {
     height: 60px;

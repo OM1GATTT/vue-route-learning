@@ -2,11 +2,12 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import LoginView from '../views/LoginView.vue'
 import RegisterView from '../views/RegisterView.vue'
-import LayoutView from '../views/LayoutView.vue'
+
 // import VipView from '../views/VipView.vue'
 import ITView from '../views/ITView.vue'
 import BackEndView from '../views/BackEndView.vue'
 import FrontEndView from '../views/FrontEndView.vue'
+import LayoutView from '../views/LayoutView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),

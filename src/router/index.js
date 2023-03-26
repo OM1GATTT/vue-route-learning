@@ -2,8 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import LoginView from '../views/LoginView.vue'
 import RegisterView from '../views/RegisterView.vue'
-
-// import VipView from '../views/VipView.vue'
+import VipView from '../views/VipView.vue'
 import ITView from '../views/ITView.vue'
 import BackEndView from '../views/BackEndView.vue'
 import FrontEndView from '../views/FrontEndView.vue'
@@ -15,12 +14,12 @@ const router = createRouter({
     {
       path: '/login',
       name: 'login',
-      component: LoginView
+      component: LoginView,
     },
     {
       path: '/reg',
       name: 'reg',
-      component: RegisterView
+      component: RegisterView,
     },
     {
       path: '/',
@@ -33,11 +32,11 @@ const router = createRouter({
           name: 'home',
           component: HomeView,
         },
-        // {
-        //   path: 'vip',
-        //   name: 'vip',
-        //   component: VipView
-        // },
+        {
+          path: 'vip',
+          name: 'vip',
+          component: VipView,
+        },
         {
           path: 'it',
           name: 'it',
@@ -46,12 +45,12 @@ const router = createRouter({
             {
               path: '/it/backend',
               name: 'backend',
-              component: BackEndView
+              component: BackEndView,
             },
             {
               path: '/it/frontend',
               name: 'frontend',
-              component: FrontEndView
+              component: FrontEndView,
             },
           ]
         },
